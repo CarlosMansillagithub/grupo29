@@ -1,0 +1,18 @@
+h1 {
+    color:orangered
+}
+p {
+    color:orangered
+}
+a{
+    color:green
+}
+.titulo{
+    text-align: center;
+    background: black;
+    color:white
+}
+.subrayado{
+    text-align: left;
+    text-decoration: underline 2px red;
+}
