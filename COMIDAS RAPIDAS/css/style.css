@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1 {
+    color:orangered
+}
+p {
+    color:orangered
+}
+a{
+    color:green
+}
+.titulo{
+    text-align: center;
+    background: black;
+    color:white
+}
+.subrayado{
+    text-align: left;
+    text-decoration: underline 2px red;
+}
+.item1 { grid-area: cabecera; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: piedepagina; }
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera cabecera cabecera right right'
+    'menu main main main right right'
+    'menu piedepagina piedepagina piedepagina piedepagina piedepagina';
+    gap: 20px; /*A nivel de filas y columnas*/
+    color: blue;
+    background-color:rgb(216, 46, 16)
+    padding: 10px;
+    }
+.contenedor > div {
+background-color:rgb(52, 165, 42);
+text-align:center
+
+padding: 20px 20px;
+font-size: 30px;
+}
+</style>
+</head>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorias</title>
+    <link rel="shortcut icon" href="../img/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/SemaforoCaloriasConJSVanilla.js"></script>
+</head>
+<body>
+    <h1 class = "titulo"> Menu Comidas Rápidas....</h1>
+        <h2 class = "subrayado"> Las más ricas comidas al paso!</h2>
+
+        <table border="1">
+            <tr>
+                <th>Hamburgesas</th>
+                <th>Pebetes c/Jamon y Queso</th>
+                <th>Pebetes c/Salame y Queso</th>
+                <th>Panchos</th>
+                <th>Pizzas c/Morron</th>
+                <th>Pizzas c/Huevo</th>
+                <th>Canelones de carne</th>
+                <th>Canelones de verduras</th>
+                <th>Sopa Paraguaya</th>
+            </tr>
+            <tr>
+                <th><img src="../img/hamburguesa.jpg" alt="Imagen Hamburguesas" width="100"></th>
+                <th><img src="../img/pebete_con_jamon.jpg" alt="Pebete con Jamon y Queso" width="100"></th>
+                <th><img src="../img/pebete_con_salame.jpeg" alt="Pebete con Salame y Queso" width="100"></th>
+                <th><img src="../img/pancho.jpg" alt="Panchos" width="100"></th>
+                <th><img src="../img/Pizza_con_morron.jpeg" alt="Pizza con morron" width="100"></th>
+                <th><img src="../img/Pizza_con_huevo.jpeg" alt="Pizza con huevos" width="100"></th>
+                <th><img src="../img/Canelones_de_carne.jpeg" alt="Canelones de carne" width="100"></th>
+                <th><img src="../img/Canelones_verduras.jpg" alt="Canelones de verduras" width="100"></th>
+                <th><img src="../img/Sopa_paraguaya.jpeg" alt="Sopa paraguaya" width="100"></th>
+            </tr>
+        </table>
+        <div id="filtrador">
+            <label>Color: </label>
+            <input id="inputColor" type="text" onkeyup="handlerFiltrarPorColor()">
+        </div>
+        <hr>
+        <div id="tablaDeIngredientesContainer">
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Foto</th>
+                    <th>Color</th>
+                </tr>
+            </table>
+            <p id="pNoHayIngredientes">Oooops, no hay ingredientes...</p>
+        </div>
+        <script src="../js/data.js"></script>
+        <script src="../js/tablaIngredientesConJSVanilla.js"></script>
+</body>
+</html>
