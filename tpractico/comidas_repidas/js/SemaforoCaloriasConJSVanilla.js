@@ -27,7 +27,7 @@ function colocarIngredientes(lista) {
             elCuerpoDeLaTabla.appendChild(nuevaFila)
         }
         mostrar(laTabla, true)
-        mostrar(pNoHayIngredientes, false)
+        mostrar(pNoHayCalorias, false)
     }
 }
 
